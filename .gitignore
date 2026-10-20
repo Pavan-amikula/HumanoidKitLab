@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.venv/
+runs/
+*.log
+# Local reruns accumulate detailed traces; publish summaries and selected showcase traces.
+results/trials/

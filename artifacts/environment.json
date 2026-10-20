@@ -1,0 +1,12 @@
+{
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "Pillow": "11.2.1",
+    "torch": "2.11.0+cpu"
+  },
+  "device": "CPU",
+  "optional_mujoco": "not installed; package network unavailable"
+}

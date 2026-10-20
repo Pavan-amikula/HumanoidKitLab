@@ -1,0 +1,32 @@
+test_pause_step_run_stop_and_new_trial (test_inputs.DashboardSessionTests.test_pause_step_run_stop_and_new_trial) ... ok
+test_bop_export_preserves_pose_units_and_object_identity (test_inputs.ExternalInputTests.test_bop_export_preserves_pose_units_and_object_identity) ... ok
+test_invalid_rotation_is_rejected (test_inputs.ExternalInputTests.test_invalid_rotation_is_rejected) ... ok
+test_pinhole_unprojection_uses_extrinsic_transform (test_inputs.ExternalInputTests.test_pinhole_unprojection_uses_extrinsic_transform) ... ok
+test_rgbd_file_replay_recovers_synthetic_parts (test_inputs.ExternalInputTests.test_rgbd_file_replay_recovers_synthetic_parts) ... ok
+test_astar_routes_around_inflated_obstacle (test_system.GeometryTests.test_astar_routes_around_inflated_obstacle) ... ok
+test_blocked_route_is_not_reported_as_valid (test_system.GeometryTests.test_blocked_route_is_not_reported_as_valid) ... ok
+test_gripper_orientation_has_pi_symmetry (test_system.GeometryTests.test_gripper_orientation_has_pi_symmetry) ... ok
+test_inverse_and_forward_kinematics_agree (test_system.GeometryTests.test_inverse_and_forward_kinematics_agree) ... ok
+test_demonstrations_have_separate_episode_ids_and_finite_targets (test_system.LearningTests.test_demonstrations_have_separate_episode_ids_and_finite_targets) ... ok
+test_hybrid_records_and_executes_classical_recovery (test_system.LearningTests.test_hybrid_records_and_executes_classical_recovery) ... ok
+test_learned_controller_completes_held_out_layout_without_fallback (test_system.LearningTests.test_learned_controller_completes_held_out_layout_without_fallback) ... ok
+test_saved_dataset_splits_have_no_shared_episodes (test_system.LearningTests.test_saved_dataset_splits_have_no_shared_episodes) ... ok
+test_unresponsive_learned_policy_fails_without_silent_fallback (test_system.LearningTests.test_unresponsive_learned_policy_fails_without_silent_fallback) ... ok
+test_erasing_pixels_removes_objects_even_if_world_contains_them (test_system.PerceptionTests.test_erasing_pixels_removes_objects_even_if_world_contains_them) ... ok
+test_low_light_does_not_destroy_class_identification (test_system.PerceptionTests.test_low_light_does_not_destroy_class_identification) ... ok
+test_miscalibrated_image_is_rejected (test_system.PerceptionTests.test_miscalibrated_image_is_rejected) ... ok
+test_pixel_detector_estimates_pose_from_images (test_system.PerceptionTests.test_pixel_detector_estimates_pose_from_images) ... ok
+test_blocked_path_never_announces_a_complete_kit (test_system.WorkflowTests.test_blocked_path_never_announces_a_complete_kit) ... ok
+test_camera_detects_drop_after_release (test_system.WorkflowTests.test_camera_detects_drop_after_release) ... ok
+test_complete_order_with_pixel_verification (test_system.WorkflowTests.test_complete_order_with_pixel_verification) ... ok
+test_grasp_failure_retries_and_recovers (test_system.WorkflowTests.test_grasp_failure_retries_and_recovers) ... ok
+test_missing_and_occluded_parts_fail_closed (test_system.WorkflowTests.test_missing_and_occluded_parts_fail_closed) ... ok
+test_stop_prevents_further_motion (test_system.WorkflowTests.test_stop_prevents_further_motion) ... ok
+test_trial_log_can_be_reloaded (test_system.WorkflowTests.test_trial_log_can_be_reloaded) ... ok
+test_wrong_slot_orientation_is_not_accepted (test_system.WorkflowTests.test_wrong_slot_orientation_is_not_accepted) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 5.645s
+
+OK
+Exported 1 annotations to C:\Users\pavan\Documents\Codex\2026-10-20\thesis-humanoid-robot-x20-x20-about\HumanoidKitLab\runs\test-temp\tmp0zc7wck7\export.json

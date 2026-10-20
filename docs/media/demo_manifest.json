@@ -1,0 +1,51 @@
+{
+  "video": "docs/media/humanoidkit_demo.mp4",
+  "codec": "H.264",
+  "pixel_format": "yuv420p",
+  "resolution": [
+    1280,
+    800
+  ],
+  "fps": 12,
+  "frames": 571,
+  "duration_seconds": 47.583333333333336,
+  "decoded_frame_count_verified": 571,
+  "content": "Rendered states from executed simulator runs, not a desktop screen capture or physical robot video",
+  "playback": "Accelerated; not a measurement of robot or application wall-clock speed",
+  "chapters": [
+    {
+      "title": "01 / Full kit: vision, navigation, picking and verified placement",
+      "starts_at_seconds": 0.0,
+      "ends_at_seconds": 20.833333333333332,
+      "method": "learned",
+      "scenario": "normal",
+      "seed": 4101,
+      "success": true,
+      "correct_slots": 4,
+      "log": "results/showcase_trials/1792532906663824900_learned_normal_4101.json"
+    },
+    {
+      "title": "02 / Recovery: a missed grasp triggers a fresh observation and retry",
+      "starts_at_seconds": 20.833333333333332,
+      "ends_at_seconds": 42.5,
+      "method": "hybrid",
+      "scenario": "grasp_failure",
+      "seed": 4101,
+      "success": true,
+      "correct_slots": 4,
+      "log": "results/showcase_trials/1792532919534538000_hybrid_grasp_failure_4101.json"
+    },
+    {
+      "title": "03 / Failure handling: missing stock never becomes a completed kit",
+      "starts_at_seconds": 42.5,
+      "ends_at_seconds": 47.583333333333336,
+      "method": "classical",
+      "scenario": "missing",
+      "seed": 4101,
+      "success": false,
+      "correct_slots": 0,
+      "log": "results/showcase_trials/1792532920451531200_classical_missing_4101.json"
+    }
+  ],
+  "sha256": "1c0efbff38ea7bab2ac3c047c0c605fe7dd64547b6f27eb4d258a5a9b350caec"
+}

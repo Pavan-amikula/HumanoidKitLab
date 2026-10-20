@@ -1,0 +1,3610 @@
+{
+  "summary": {
+    "seed": 4101,
+    "scenario": "normal",
+    "method": "learned",
+    "environment": "kinematic synthetic simulation; assisted geometric grasps; no physics or gait",
+    "success": true,
+    "status": "COMPLETE",
+    "reason": "KIT-001 verified: correct parts, quantities, slots and orientations",
+    "correct_slots": 4,
+    "total_slots": 4,
+    "grasp_attempts": 4,
+    "grasp_successes": 4,
+    "first_attempt_grasp_successes": 4,
+    "retries": 0,
+    "classical_fallbacks": 0,
+    "navigation_distance_m": 14.346158663883054,
+    "camera_placement_errors": {
+      "0": {
+        "position_error_m": 0.0036605892655054064,
+        "yaw_error_rad": 0.0
+      },
+      "1": {
+        "position_error_m": 0.003529203278681517,
+        "yaw_error_rad": 0.0
+      },
+      "2": {
+        "position_error_m": 0.0040154573424673766,
+        "yaw_error_rad": 0.0
+      },
+      "3": {
+        "position_error_m": 0.0037612541299107075,
+        "yaw_error_rad": 0.0
+      }
+    },
+    "modeled_cycle_seconds": 118.68463465553347,
+    "wall_seconds": 11.990774599995348,
+    "latencies": {
+      "control_learned": {
+        "count": 382,
+        "median_ms": 0.14304999785963446,
+        "p95_ms": 0.39148499818111304
+      },
+      "perception": {
+        "count": 13,
+        "median_ms": 77.4401000016951,
+        "p95_ms": 79.8794199974509
+      },
+      "planning": {
+        "count": 8,
+        "median_ms": 0.6214499990164768,
+        "p95_ms": 2.7560500024264907
+      }
+    }
+  },
+  "events": [
+    {
+      "sequence": 0,
+      "state": "CHECK_ORDER",
+      "message": "Checking observed rack inventory against the kit order",
+      "modeled_seconds": 0.0
+    },
+    {
+      "sequence": 1,
+      "state": "LOCATE_PART",
+      "message": "Finding bolt for slot 1",
+      "modeled_seconds": 0.0
+    },
+    {
+      "sequence": 2,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 0.15
+    },
+    {
+      "sequence": 3,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 0.3
+    },
+    {
+      "sequence": 4,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 0.5
+    },
+    {
+      "sequence": 5,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 0.9
+    },
+    {
+      "sequence": 6,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 1.3
+    },
+    {
+      "sequence": 7,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 1.7
+    },
+    {
+      "sequence": 8,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 2.1
+    },
+    {
+      "sequence": 9,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 2.5
+    },
+    {
+      "sequence": 10,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 2.9
+    },
+    {
+      "sequence": 11,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 3.3
+    },
+    {
+      "sequence": 12,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 3.7
+    },
+    {
+      "sequence": 13,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 4.1
+    },
+    {
+      "sequence": 14,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 4.5
+    },
+    {
+      "sequence": 15,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 4.9
+    },
+    {
+      "sequence": 16,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 5.3
+    },
+    {
+      "sequence": 17,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 5.7
+    },
+    {
+      "sequence": 18,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 6.1
+    },
+    {
+      "sequence": 19,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 6.5
+    },
+    {
+      "sequence": 20,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 6.9
+    },
+    {
+      "sequence": 21,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 7.3
+    },
+    {
+      "sequence": 22,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 7.7
+    },
+    {
+      "sequence": 23,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 8.1
+    },
+    {
+      "sequence": 24,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 8.5
+    },
+    {
+      "sequence": 25,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 8.9
+    },
+    {
+      "sequence": 26,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 9.0386
+    },
+    {
+      "sequence": 27,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 9.0386
+    },
+    {
+      "sequence": 28,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 9.1886
+    },
+    {
+      "sequence": 29,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 9.3386
+    },
+    {
+      "sequence": 30,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 9.4886
+    },
+    {
+      "sequence": 31,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 9.6386
+    },
+    {
+      "sequence": 32,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 9.7886
+    },
+    {
+      "sequence": 33,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 9.9386
+    },
+    {
+      "sequence": 34,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.0886
+    },
+    {
+      "sequence": 35,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.2386
+    },
+    {
+      "sequence": 36,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.3886
+    },
+    {
+      "sequence": 37,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.5386
+    },
+    {
+      "sequence": 38,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.6886
+    },
+    {
+      "sequence": 39,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.8386
+    },
+    {
+      "sequence": 40,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 10.9886
+    },
+    {
+      "sequence": 41,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 11.1386
+    },
+    {
+      "sequence": 42,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 11.2886
+    },
+    {
+      "sequence": 43,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 11.4386
+    },
+    {
+      "sequence": 44,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 11.5886
+    },
+    {
+      "sequence": 45,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 11.7386
+    },
+    {
+      "sequence": 46,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 11.8886
+    },
+    {
+      "sequence": 47,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.0386
+    },
+    {
+      "sequence": 48,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.1886
+    },
+    {
+      "sequence": 49,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.3386
+    },
+    {
+      "sequence": 50,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.4886
+    },
+    {
+      "sequence": 51,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.6386
+    },
+    {
+      "sequence": 52,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.7886
+    },
+    {
+      "sequence": 53,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 12.9386
+    },
+    {
+      "sequence": 54,
+      "state": "VERIFY_GRASP",
+      "message": "Geometric assisted grasp verified",
+      "modeled_seconds": 13.4386,
+      "success": true
+    },
+    {
+      "sequence": 55,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 13.5886
+    },
+    {
+      "sequence": 56,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 13.7386
+    },
+    {
+      "sequence": 57,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 13.8886
+    },
+    {
+      "sequence": 58,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.0386
+    },
+    {
+      "sequence": 59,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.1886
+    },
+    {
+      "sequence": 60,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.3386
+    },
+    {
+      "sequence": 61,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.4886
+    },
+    {
+      "sequence": 62,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.6386
+    },
+    {
+      "sequence": 63,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.7886
+    },
+    {
+      "sequence": 64,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 14.9386
+    },
+    {
+      "sequence": 65,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.0886
+    },
+    {
+      "sequence": 66,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.2386
+    },
+    {
+      "sequence": 67,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.3886
+    },
+    {
+      "sequence": 68,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.5386
+    },
+    {
+      "sequence": 69,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.6886
+    },
+    {
+      "sequence": 70,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.8386
+    },
+    {
+      "sequence": 71,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 15.9886
+    },
+    {
+      "sequence": 72,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 16.1386
+    },
+    {
+      "sequence": 73,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 16.2886
+    },
+    {
+      "sequence": 74,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 16.4386
+    },
+    {
+      "sequence": 75,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 16.5886
+    },
+    {
+      "sequence": 76,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 16.7386
+    },
+    {
+      "sequence": 77,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 16.8886
+    },
+    {
+      "sequence": 78,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 17.0386
+    },
+    {
+      "sequence": 79,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 17.1886
+    },
+    {
+      "sequence": 80,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 17.3386
+    },
+    {
+      "sequence": 81,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 17.4772
+    },
+    {
+      "sequence": 82,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 17.8772
+    },
+    {
+      "sequence": 83,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 18.2772
+    },
+    {
+      "sequence": 84,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 18.6772
+    },
+    {
+      "sequence": 85,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 19.0772
+    },
+    {
+      "sequence": 86,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 19.4772
+    },
+    {
+      "sequence": 87,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 19.8772
+    },
+    {
+      "sequence": 88,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 20.2772
+    },
+    {
+      "sequence": 89,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 20.6772
+    },
+    {
+      "sequence": 90,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 21.0772
+    },
+    {
+      "sequence": 91,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 21.4772
+    },
+    {
+      "sequence": 92,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 21.8772
+    },
+    {
+      "sequence": 93,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 22.2772
+    },
+    {
+      "sequence": 94,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 22.6772
+    },
+    {
+      "sequence": 95,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 23.0772
+    },
+    {
+      "sequence": 96,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 23.4772
+    },
+    {
+      "sequence": 97,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 23.8772
+    },
+    {
+      "sequence": 98,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 24.2772
+    },
+    {
+      "sequence": 99,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 24.6772
+    },
+    {
+      "sequence": 100,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 25.0772
+    },
+    {
+      "sequence": 101,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 25.4772
+    },
+    {
+      "sequence": 102,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 25.8772
+    },
+    {
+      "sequence": 103,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 25.9572
+    },
+    {
+      "sequence": 104,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 25.9572
+    },
+    {
+      "sequence": 105,
+      "state": "ROTATE",
+      "message": "Orienting the carried part for its kit slot",
+      "modeled_seconds": 25.9572
+    },
+    {
+      "sequence": 106,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 26.1072
+    },
+    {
+      "sequence": 107,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 26.2572
+    },
+    {
+      "sequence": 108,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 26.4072
+    },
+    {
+      "sequence": 109,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 26.5572
+    },
+    {
+      "sequence": 110,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 26.7072
+    },
+    {
+      "sequence": 111,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 26.8572
+    },
+    {
+      "sequence": 112,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.0072
+    },
+    {
+      "sequence": 113,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.1572
+    },
+    {
+      "sequence": 114,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.3072
+    },
+    {
+      "sequence": 115,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.4572
+    },
+    {
+      "sequence": 116,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.6072
+    },
+    {
+      "sequence": 117,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.7572
+    },
+    {
+      "sequence": 118,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 27.9072
+    },
+    {
+      "sequence": 119,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 28.0572
+    },
+    {
+      "sequence": 120,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 28.2072
+    },
+    {
+      "sequence": 121,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 28.3572
+    },
+    {
+      "sequence": 122,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 28.5072
+    },
+    {
+      "sequence": 123,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 28.6572
+    },
+    {
+      "sequence": 124,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 28.8072
+    },
+    {
+      "sequence": 125,
+      "state": "PLACE",
+      "message": "Released bolt in slot 1",
+      "modeled_seconds": 29.3072
+    },
+    {
+      "sequence": 126,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 29.4572
+    },
+    {
+      "sequence": 127,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 29.6072
+    },
+    {
+      "sequence": 128,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 29.7572
+    },
+    {
+      "sequence": 129,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 29.9072
+    },
+    {
+      "sequence": 130,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.0572
+    },
+    {
+      "sequence": 131,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.2072
+    },
+    {
+      "sequence": 132,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.3572
+    },
+    {
+      "sequence": 133,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.5072
+    },
+    {
+      "sequence": 134,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.6572
+    },
+    {
+      "sequence": 135,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.8072
+    },
+    {
+      "sequence": 136,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 30.9572
+    },
+    {
+      "sequence": 137,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 31.1072
+    },
+    {
+      "sequence": 138,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 31.2572
+    },
+    {
+      "sequence": 139,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 31.4072
+    },
+    {
+      "sequence": 140,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 31.5572
+    },
+    {
+      "sequence": 141,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 31.7072
+    },
+    {
+      "sequence": 142,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 31.8572
+    },
+    {
+      "sequence": 143,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 32.0072
+    },
+    {
+      "sequence": 144,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 32.1572
+    },
+    {
+      "sequence": 145,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 32.3072
+    },
+    {
+      "sequence": 146,
+      "state": "VERIFY_PLACEMENT",
+      "message": "Camera confirmed bolt and orientation in slot 1",
+      "modeled_seconds": 32.3072
+    },
+    {
+      "sequence": 147,
+      "state": "LOCATE_PART",
+      "message": "Finding bolt for slot 2",
+      "modeled_seconds": 32.3072
+    },
+    {
+      "sequence": 148,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 32.3872
+    },
+    {
+      "sequence": 149,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 32.7872
+    },
+    {
+      "sequence": 150,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 33.1872
+    },
+    {
+      "sequence": 151,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 33.5872
+    },
+    {
+      "sequence": 152,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 33.9872
+    },
+    {
+      "sequence": 153,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 34.3872
+    },
+    {
+      "sequence": 154,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 34.7872
+    },
+    {
+      "sequence": 155,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 35.1872
+    },
+    {
+      "sequence": 156,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 35.5872
+    },
+    {
+      "sequence": 157,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 35.9872
+    },
+    {
+      "sequence": 158,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 36.3872
+    },
+    {
+      "sequence": 159,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 36.7872
+    },
+    {
+      "sequence": 160,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 37.1872
+    },
+    {
+      "sequence": 161,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 37.5872
+    },
+    {
+      "sequence": 162,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 37.9872
+    },
+    {
+      "sequence": 163,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 38.3872
+    },
+    {
+      "sequence": 164,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 38.7872
+    },
+    {
+      "sequence": 165,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 39.1872
+    },
+    {
+      "sequence": 166,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 39.5872
+    },
+    {
+      "sequence": 167,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 39.6682
+    },
+    {
+      "sequence": 168,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 39.6682
+    },
+    {
+      "sequence": 169,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 39.8182
+    },
+    {
+      "sequence": 170,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 39.9682
+    },
+    {
+      "sequence": 171,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 40.1182
+    },
+    {
+      "sequence": 172,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 40.2682
+    },
+    {
+      "sequence": 173,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 40.4182
+    },
+    {
+      "sequence": 174,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 40.5682
+    },
+    {
+      "sequence": 175,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 40.7182
+    },
+    {
+      "sequence": 176,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 40.8682
+    },
+    {
+      "sequence": 177,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.0182
+    },
+    {
+      "sequence": 178,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.1682
+    },
+    {
+      "sequence": 179,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.3182
+    },
+    {
+      "sequence": 180,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.4682
+    },
+    {
+      "sequence": 181,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.6182
+    },
+    {
+      "sequence": 182,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.7682
+    },
+    {
+      "sequence": 183,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 41.9182
+    },
+    {
+      "sequence": 184,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.0682
+    },
+    {
+      "sequence": 185,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.2182
+    },
+    {
+      "sequence": 186,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.3682
+    },
+    {
+      "sequence": 187,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.5182
+    },
+    {
+      "sequence": 188,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.6682
+    },
+    {
+      "sequence": 189,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.8182
+    },
+    {
+      "sequence": 190,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 42.9682
+    },
+    {
+      "sequence": 191,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 43.1182
+    },
+    {
+      "sequence": 192,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 43.2682
+    },
+    {
+      "sequence": 193,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 43.4182
+    },
+    {
+      "sequence": 194,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 43.5682
+    },
+    {
+      "sequence": 195,
+      "state": "VERIFY_GRASP",
+      "message": "Geometric assisted grasp verified",
+      "modeled_seconds": 44.0682,
+      "success": true
+    },
+    {
+      "sequence": 196,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 44.2182
+    },
+    {
+      "sequence": 197,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 44.3682
+    },
+    {
+      "sequence": 198,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 44.5182
+    },
+    {
+      "sequence": 199,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 44.6682
+    },
+    {
+      "sequence": 200,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 44.8182
+    },
+    {
+      "sequence": 201,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 44.9682
+    },
+    {
+      "sequence": 202,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 45.1182
+    },
+    {
+      "sequence": 203,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 45.2682
+    },
+    {
+      "sequence": 204,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 45.4182
+    },
+    {
+      "sequence": 205,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 45.5682
+    },
+    {
+      "sequence": 206,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 45.7182
+    },
+    {
+      "sequence": 207,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 45.8682
+    },
+    {
+      "sequence": 208,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.0182
+    },
+    {
+      "sequence": 209,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.1682
+    },
+    {
+      "sequence": 210,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.3182
+    },
+    {
+      "sequence": 211,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.4682
+    },
+    {
+      "sequence": 212,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.6182
+    },
+    {
+      "sequence": 213,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.7682
+    },
+    {
+      "sequence": 214,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 46.9182
+    },
+    {
+      "sequence": 215,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.0682
+    },
+    {
+      "sequence": 216,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.2182
+    },
+    {
+      "sequence": 217,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.3682
+    },
+    {
+      "sequence": 218,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.5182
+    },
+    {
+      "sequence": 219,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.6682
+    },
+    {
+      "sequence": 220,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.8182
+    },
+    {
+      "sequence": 221,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 47.9682
+    },
+    {
+      "sequence": 222,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 48.0492
+    },
+    {
+      "sequence": 223,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 48.4492
+    },
+    {
+      "sequence": 224,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 48.8492
+    },
+    {
+      "sequence": 225,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 49.2492
+    },
+    {
+      "sequence": 226,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 49.6492
+    },
+    {
+      "sequence": 227,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 50.0492
+    },
+    {
+      "sequence": 228,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 50.4492
+    },
+    {
+      "sequence": 229,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 50.8492
+    },
+    {
+      "sequence": 230,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 51.2492
+    },
+    {
+      "sequence": 231,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 51.6492
+    },
+    {
+      "sequence": 232,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 52.0492
+    },
+    {
+      "sequence": 233,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 52.4492
+    },
+    {
+      "sequence": 234,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 52.8492
+    },
+    {
+      "sequence": 235,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 53.2492
+    },
+    {
+      "sequence": 236,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 53.6492
+    },
+    {
+      "sequence": 237,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 54.0492
+    },
+    {
+      "sequence": 238,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 54.4492
+    },
+    {
+      "sequence": 239,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 54.8492
+    },
+    {
+      "sequence": 240,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 55.2492
+    },
+    {
+      "sequence": 241,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 55.3292
+    },
+    {
+      "sequence": 242,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 55.3292
+    },
+    {
+      "sequence": 243,
+      "state": "ROTATE",
+      "message": "Orienting the carried part for its kit slot",
+      "modeled_seconds": 55.3292
+    },
+    {
+      "sequence": 244,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 55.4792
+    },
+    {
+      "sequence": 245,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 55.6292
+    },
+    {
+      "sequence": 246,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 55.7792
+    },
+    {
+      "sequence": 247,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 55.9292
+    },
+    {
+      "sequence": 248,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.0792
+    },
+    {
+      "sequence": 249,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.2292
+    },
+    {
+      "sequence": 250,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.3792
+    },
+    {
+      "sequence": 251,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.5292
+    },
+    {
+      "sequence": 252,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.6792
+    },
+    {
+      "sequence": 253,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.8292
+    },
+    {
+      "sequence": 254,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 56.9792
+    },
+    {
+      "sequence": 255,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 57.1292
+    },
+    {
+      "sequence": 256,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 57.2792
+    },
+    {
+      "sequence": 257,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 57.4292
+    },
+    {
+      "sequence": 258,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 57.5792
+    },
+    {
+      "sequence": 259,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 57.7292
+    },
+    {
+      "sequence": 260,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 57.8792
+    },
+    {
+      "sequence": 261,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.0292
+    },
+    {
+      "sequence": 262,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.1792
+    },
+    {
+      "sequence": 263,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.3292
+    },
+    {
+      "sequence": 264,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.4792
+    },
+    {
+      "sequence": 265,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.6292
+    },
+    {
+      "sequence": 266,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.7792
+    },
+    {
+      "sequence": 267,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 58.9292
+    },
+    {
+      "sequence": 268,
+      "state": "PLACE",
+      "message": "Released bolt in slot 2",
+      "modeled_seconds": 59.4292
+    },
+    {
+      "sequence": 269,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 59.5792
+    },
+    {
+      "sequence": 270,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 59.7292
+    },
+    {
+      "sequence": 271,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 59.8792
+    },
+    {
+      "sequence": 272,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.0292
+    },
+    {
+      "sequence": 273,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.1792
+    },
+    {
+      "sequence": 274,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.3292
+    },
+    {
+      "sequence": 275,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.4792
+    },
+    {
+      "sequence": 276,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.6292
+    },
+    {
+      "sequence": 277,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.7792
+    },
+    {
+      "sequence": 278,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 60.9292
+    },
+    {
+      "sequence": 279,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.0792
+    },
+    {
+      "sequence": 280,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.2292
+    },
+    {
+      "sequence": 281,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.3792
+    },
+    {
+      "sequence": 282,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.5292
+    },
+    {
+      "sequence": 283,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.6792
+    },
+    {
+      "sequence": 284,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.8292
+    },
+    {
+      "sequence": 285,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 61.9792
+    },
+    {
+      "sequence": 286,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 62.1292
+    },
+    {
+      "sequence": 287,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 62.2792
+    },
+    {
+      "sequence": 288,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 62.4292
+    },
+    {
+      "sequence": 289,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 62.5792
+    },
+    {
+      "sequence": 290,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 62.7292
+    },
+    {
+      "sequence": 291,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 62.8792
+    },
+    {
+      "sequence": 292,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 63.0292
+    },
+    {
+      "sequence": 293,
+      "state": "VERIFY_PLACEMENT",
+      "message": "Camera confirmed bolt and orientation in slot 2",
+      "modeled_seconds": 63.0292
+    },
+    {
+      "sequence": 294,
+      "state": "LOCATE_PART",
+      "message": "Finding bracket for slot 3",
+      "modeled_seconds": 63.0292
+    },
+    {
+      "sequence": 295,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 63.1092
+    },
+    {
+      "sequence": 296,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 63.5092
+    },
+    {
+      "sequence": 297,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 63.9092
+    },
+    {
+      "sequence": 298,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 64.3092
+    },
+    {
+      "sequence": 299,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 64.7092
+    },
+    {
+      "sequence": 300,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 65.1092
+    },
+    {
+      "sequence": 301,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 65.5092
+    },
+    {
+      "sequence": 302,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 65.9092
+    },
+    {
+      "sequence": 303,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 66.3092
+    },
+    {
+      "sequence": 304,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 66.7092
+    },
+    {
+      "sequence": 305,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 67.1092
+    },
+    {
+      "sequence": 306,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 67.5092
+    },
+    {
+      "sequence": 307,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 67.9092
+    },
+    {
+      "sequence": 308,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 68.3092
+    },
+    {
+      "sequence": 309,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 68.7092
+    },
+    {
+      "sequence": 310,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 68.7802
+    },
+    {
+      "sequence": 311,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 68.7802
+    },
+    {
+      "sequence": 312,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 68.9302
+    },
+    {
+      "sequence": 313,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.0802
+    },
+    {
+      "sequence": 314,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.2302
+    },
+    {
+      "sequence": 315,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.3802
+    },
+    {
+      "sequence": 316,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.5302
+    },
+    {
+      "sequence": 317,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.6802
+    },
+    {
+      "sequence": 318,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.8302
+    },
+    {
+      "sequence": 319,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 69.9802
+    },
+    {
+      "sequence": 320,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 70.1302
+    },
+    {
+      "sequence": 321,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 70.2802
+    },
+    {
+      "sequence": 322,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 70.4302
+    },
+    {
+      "sequence": 323,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 70.5802
+    },
+    {
+      "sequence": 324,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 70.7302
+    },
+    {
+      "sequence": 325,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 70.8802
+    },
+    {
+      "sequence": 326,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.0302
+    },
+    {
+      "sequence": 327,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.1802
+    },
+    {
+      "sequence": 328,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.3302
+    },
+    {
+      "sequence": 329,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.4802
+    },
+    {
+      "sequence": 330,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.6302
+    },
+    {
+      "sequence": 331,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.7802
+    },
+    {
+      "sequence": 332,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 71.9302
+    },
+    {
+      "sequence": 333,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 72.0802
+    },
+    {
+      "sequence": 334,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 72.2302
+    },
+    {
+      "sequence": 335,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 72.3802
+    },
+    {
+      "sequence": 336,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 72.5302
+    },
+    {
+      "sequence": 337,
+      "state": "VERIFY_GRASP",
+      "message": "Geometric assisted grasp verified",
+      "modeled_seconds": 73.0302,
+      "success": true
+    },
+    {
+      "sequence": 338,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 73.1802
+    },
+    {
+      "sequence": 339,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 73.3302
+    },
+    {
+      "sequence": 340,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 73.4802
+    },
+    {
+      "sequence": 341,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 73.6302
+    },
+    {
+      "sequence": 342,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 73.7802
+    },
+    {
+      "sequence": 343,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 73.9302
+    },
+    {
+      "sequence": 344,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.0802
+    },
+    {
+      "sequence": 345,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.2302
+    },
+    {
+      "sequence": 346,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.3802
+    },
+    {
+      "sequence": 347,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.5302
+    },
+    {
+      "sequence": 348,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.6802
+    },
+    {
+      "sequence": 349,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.8302
+    },
+    {
+      "sequence": 350,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 74.9802
+    },
+    {
+      "sequence": 351,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 75.1302
+    },
+    {
+      "sequence": 352,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 75.2802
+    },
+    {
+      "sequence": 353,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 75.4302
+    },
+    {
+      "sequence": 354,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 75.5802
+    },
+    {
+      "sequence": 355,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 75.7302
+    },
+    {
+      "sequence": 356,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 75.8802
+    },
+    {
+      "sequence": 357,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.0302
+    },
+    {
+      "sequence": 358,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.1802
+    },
+    {
+      "sequence": 359,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.3302
+    },
+    {
+      "sequence": 360,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.4802
+    },
+    {
+      "sequence": 361,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.6302
+    },
+    {
+      "sequence": 362,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.7802
+    },
+    {
+      "sequence": 363,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 76.9302
+    },
+    {
+      "sequence": 364,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 77.0012
+    },
+    {
+      "sequence": 365,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 77.4012
+    },
+    {
+      "sequence": 366,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 77.8012
+    },
+    {
+      "sequence": 367,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 78.2012
+    },
+    {
+      "sequence": 368,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 78.6012
+    },
+    {
+      "sequence": 369,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 79.0012
+    },
+    {
+      "sequence": 370,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 79.4012
+    },
+    {
+      "sequence": 371,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 79.8012
+    },
+    {
+      "sequence": 372,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 80.2012
+    },
+    {
+      "sequence": 373,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 80.6012
+    },
+    {
+      "sequence": 374,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 81.0012
+    },
+    {
+      "sequence": 375,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 81.4012
+    },
+    {
+      "sequence": 376,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 81.8012
+    },
+    {
+      "sequence": 377,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 82.2012
+    },
+    {
+      "sequence": 378,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 82.6012
+    },
+    {
+      "sequence": 379,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 82.6812
+    },
+    {
+      "sequence": 380,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 82.6812
+    },
+    {
+      "sequence": 381,
+      "state": "ROTATE",
+      "message": "Orienting the carried part for its kit slot",
+      "modeled_seconds": 82.6812
+    },
+    {
+      "sequence": 382,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 82.8312
+    },
+    {
+      "sequence": 383,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 82.9812
+    },
+    {
+      "sequence": 384,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 83.1312
+    },
+    {
+      "sequence": 385,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 83.2812
+    },
+    {
+      "sequence": 386,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 83.4312
+    },
+    {
+      "sequence": 387,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 83.5812
+    },
+    {
+      "sequence": 388,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 83.7312
+    },
+    {
+      "sequence": 389,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 83.8812
+    },
+    {
+      "sequence": 390,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.0312
+    },
+    {
+      "sequence": 391,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.1812
+    },
+    {
+      "sequence": 392,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.3312
+    },
+    {
+      "sequence": 393,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.4812
+    },
+    {
+      "sequence": 394,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.6312
+    },
+    {
+      "sequence": 395,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.7812
+    },
+    {
+      "sequence": 396,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 84.9312
+    },
+    {
+      "sequence": 397,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 85.0812
+    },
+    {
+      "sequence": 398,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 85.2312
+    },
+    {
+      "sequence": 399,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 85.3812
+    },
+    {
+      "sequence": 400,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 85.5312
+    },
+    {
+      "sequence": 401,
+      "state": "PLACE",
+      "message": "Released bracket in slot 3",
+      "modeled_seconds": 86.0312
+    },
+    {
+      "sequence": 402,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 86.1812
+    },
+    {
+      "sequence": 403,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 86.3312
+    },
+    {
+      "sequence": 404,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 86.4812
+    },
+    {
+      "sequence": 405,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 86.6312
+    },
+    {
+      "sequence": 406,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 86.7812
+    },
+    {
+      "sequence": 407,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 86.9312
+    },
+    {
+      "sequence": 408,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.0812
+    },
+    {
+      "sequence": 409,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.2312
+    },
+    {
+      "sequence": 410,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.3812
+    },
+    {
+      "sequence": 411,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.5312
+    },
+    {
+      "sequence": 412,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.6812
+    },
+    {
+      "sequence": 413,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.8312
+    },
+    {
+      "sequence": 414,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 87.9812
+    },
+    {
+      "sequence": 415,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 88.1312
+    },
+    {
+      "sequence": 416,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 88.2812
+    },
+    {
+      "sequence": 417,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 88.4312
+    },
+    {
+      "sequence": 418,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 88.5812
+    },
+    {
+      "sequence": 419,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 88.7312
+    },
+    {
+      "sequence": 420,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 88.8812
+    },
+    {
+      "sequence": 421,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 89.0312
+    },
+    {
+      "sequence": 422,
+      "state": "VERIFY_PLACEMENT",
+      "message": "Camera confirmed bracket and orientation in slot 3",
+      "modeled_seconds": 89.0312
+    },
+    {
+      "sequence": 423,
+      "state": "LOCATE_PART",
+      "message": "Finding spacer for slot 4",
+      "modeled_seconds": 89.0312
+    },
+    {
+      "sequence": 424,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 89.1112
+    },
+    {
+      "sequence": 425,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 89.5112
+    },
+    {
+      "sequence": 426,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 89.9112
+    },
+    {
+      "sequence": 427,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 90.3112
+    },
+    {
+      "sequence": 428,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 90.7112
+    },
+    {
+      "sequence": 429,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 91.1112
+    },
+    {
+      "sequence": 430,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 91.5112
+    },
+    {
+      "sequence": 431,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 91.9112
+    },
+    {
+      "sequence": 432,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 92.3112
+    },
+    {
+      "sequence": 433,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 92.7112
+    },
+    {
+      "sequence": 434,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 93.1112
+    },
+    {
+      "sequence": 435,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 93.5112
+    },
+    {
+      "sequence": 436,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 93.9112
+    },
+    {
+      "sequence": 437,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 94.3112
+    },
+    {
+      "sequence": 438,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 94.7112
+    },
+    {
+      "sequence": 439,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 95.1112
+    },
+    {
+      "sequence": 440,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 95.5112
+    },
+    {
+      "sequence": 441,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 95.9112
+    },
+    {
+      "sequence": 442,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 95.9329
+    },
+    {
+      "sequence": 443,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 95.9329
+    },
+    {
+      "sequence": 444,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.0829
+    },
+    {
+      "sequence": 445,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.2329
+    },
+    {
+      "sequence": 446,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.3829
+    },
+    {
+      "sequence": 447,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.5329
+    },
+    {
+      "sequence": 448,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.6829
+    },
+    {
+      "sequence": 449,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.8329
+    },
+    {
+      "sequence": 450,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 96.9829
+    },
+    {
+      "sequence": 451,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 97.1329
+    },
+    {
+      "sequence": 452,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 97.2829
+    },
+    {
+      "sequence": 453,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 97.4329
+    },
+    {
+      "sequence": 454,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 97.5829
+    },
+    {
+      "sequence": 455,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 97.7329
+    },
+    {
+      "sequence": 456,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 97.8829
+    },
+    {
+      "sequence": 457,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.0329
+    },
+    {
+      "sequence": 458,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.1829
+    },
+    {
+      "sequence": 459,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.3329
+    },
+    {
+      "sequence": 460,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.4829
+    },
+    {
+      "sequence": 461,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.6329
+    },
+    {
+      "sequence": 462,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.7829
+    },
+    {
+      "sequence": 463,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 98.9329
+    },
+    {
+      "sequence": 464,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 99.0829
+    },
+    {
+      "sequence": 465,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 99.2329
+    },
+    {
+      "sequence": 466,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 99.3829
+    },
+    {
+      "sequence": 467,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 99.5329
+    },
+    {
+      "sequence": 468,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 99.6829
+    },
+    {
+      "sequence": 469,
+      "state": "VERIFY_GRASP",
+      "message": "Geometric assisted grasp verified",
+      "modeled_seconds": 100.1829,
+      "success": true
+    },
+    {
+      "sequence": 470,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 100.3329
+    },
+    {
+      "sequence": 471,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 100.4829
+    },
+    {
+      "sequence": 472,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 100.6329
+    },
+    {
+      "sequence": 473,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 100.7829
+    },
+    {
+      "sequence": 474,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 100.9329
+    },
+    {
+      "sequence": 475,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.0829
+    },
+    {
+      "sequence": 476,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.2329
+    },
+    {
+      "sequence": 477,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.3829
+    },
+    {
+      "sequence": 478,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.5329
+    },
+    {
+      "sequence": 479,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.6829
+    },
+    {
+      "sequence": 480,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.8329
+    },
+    {
+      "sequence": 481,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 101.9829
+    },
+    {
+      "sequence": 482,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 102.1329
+    },
+    {
+      "sequence": 483,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 102.2829
+    },
+    {
+      "sequence": 484,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 102.4329
+    },
+    {
+      "sequence": 485,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 102.5829
+    },
+    {
+      "sequence": 486,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 102.7329
+    },
+    {
+      "sequence": 487,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 102.8829
+    },
+    {
+      "sequence": 488,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.0329
+    },
+    {
+      "sequence": 489,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.1829
+    },
+    {
+      "sequence": 490,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.3329
+    },
+    {
+      "sequence": 491,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.4829
+    },
+    {
+      "sequence": 492,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.6329
+    },
+    {
+      "sequence": 493,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.7829
+    },
+    {
+      "sequence": 494,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 103.9329
+    },
+    {
+      "sequence": 495,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 104.0829
+    },
+    {
+      "sequence": 496,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 104.1046
+    },
+    {
+      "sequence": 497,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 104.5046
+    },
+    {
+      "sequence": 498,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 104.9046
+    },
+    {
+      "sequence": 499,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 105.3046
+    },
+    {
+      "sequence": 500,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 105.7046
+    },
+    {
+      "sequence": 501,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 106.1046
+    },
+    {
+      "sequence": 502,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 106.5046
+    },
+    {
+      "sequence": 503,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 106.9046
+    },
+    {
+      "sequence": 504,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 107.3046
+    },
+    {
+      "sequence": 505,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 107.7046
+    },
+    {
+      "sequence": 506,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 108.1046
+    },
+    {
+      "sequence": 507,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 108.5046
+    },
+    {
+      "sequence": 508,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 108.9046
+    },
+    {
+      "sequence": 509,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 109.3046
+    },
+    {
+      "sequence": 510,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 109.7046
+    },
+    {
+      "sequence": 511,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 110.1046
+    },
+    {
+      "sequence": 512,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 110.5046
+    },
+    {
+      "sequence": 513,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 110.9046
+    },
+    {
+      "sequence": 514,
+      "state": "NAVIGATE",
+      "message": "Following footprint-clear A* route",
+      "modeled_seconds": 110.9846
+    },
+    {
+      "sequence": 515,
+      "state": "DOCK",
+      "message": "Base stopped for manipulation",
+      "modeled_seconds": 110.9846
+    },
+    {
+      "sequence": 516,
+      "state": "ROTATE",
+      "message": "Orienting the carried part for its kit slot",
+      "modeled_seconds": 110.9846
+    },
+    {
+      "sequence": 517,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 111.1346
+    },
+    {
+      "sequence": 518,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 111.2846
+    },
+    {
+      "sequence": 519,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 111.4346
+    },
+    {
+      "sequence": 520,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 111.5846
+    },
+    {
+      "sequence": 521,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 111.7346
+    },
+    {
+      "sequence": 522,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 111.8846
+    },
+    {
+      "sequence": 523,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.0346
+    },
+    {
+      "sequence": 524,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.1846
+    },
+    {
+      "sequence": 525,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.3346
+    },
+    {
+      "sequence": 526,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.4846
+    },
+    {
+      "sequence": 527,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.6346
+    },
+    {
+      "sequence": 528,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.7846
+    },
+    {
+      "sequence": 529,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 112.9346
+    },
+    {
+      "sequence": 530,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.0846
+    },
+    {
+      "sequence": 531,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.2346
+    },
+    {
+      "sequence": 532,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.3846
+    },
+    {
+      "sequence": 533,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.5346
+    },
+    {
+      "sequence": 534,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.6846
+    },
+    {
+      "sequence": 535,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.8346
+    },
+    {
+      "sequence": 536,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 113.9846
+    },
+    {
+      "sequence": 537,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 114.1346
+    },
+    {
+      "sequence": 538,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 114.2846
+    },
+    {
+      "sequence": 539,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 114.4346
+    },
+    {
+      "sequence": 540,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 114.5846
+    },
+    {
+      "sequence": 541,
+      "state": "PLACE",
+      "message": "Released spacer in slot 4",
+      "modeled_seconds": 115.0846
+    },
+    {
+      "sequence": 542,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 115.2346
+    },
+    {
+      "sequence": 543,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 115.3846
+    },
+    {
+      "sequence": 544,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 115.5346
+    },
+    {
+      "sequence": 545,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 115.6846
+    },
+    {
+      "sequence": 546,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 115.8346
+    },
+    {
+      "sequence": 547,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 115.9846
+    },
+    {
+      "sequence": 548,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 116.1346
+    },
+    {
+      "sequence": 549,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 116.2846
+    },
+    {
+      "sequence": 550,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 116.4346
+    },
+    {
+      "sequence": 551,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 116.5846
+    },
+    {
+      "sequence": 552,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 116.7346
+    },
+    {
+      "sequence": 553,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 116.8846
+    },
+    {
+      "sequence": 554,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.0346
+    },
+    {
+      "sequence": 555,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.1846
+    },
+    {
+      "sequence": 556,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.3346
+    },
+    {
+      "sequence": 557,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.4846
+    },
+    {
+      "sequence": 558,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.6346
+    },
+    {
+      "sequence": 559,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.7846
+    },
+    {
+      "sequence": 560,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 117.9346
+    },
+    {
+      "sequence": 561,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 118.0846
+    },
+    {
+      "sequence": 562,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 118.2346
+    },
+    {
+      "sequence": 563,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 118.3846
+    },
+    {
+      "sequence": 564,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 118.5346
+    },
+    {
+      "sequence": 565,
+      "state": "MANIPULATE",
+      "message": "learned: closed-loop arm movement",
+      "modeled_seconds": 118.6846
+    },
+    {
+      "sequence": 566,
+      "state": "VERIFY_PLACEMENT",
+      "message": "Camera confirmed spacer and orientation in slot 4",
+      "modeled_seconds": 118.6846
+    },
+    {
+      "sequence": 567,
+      "state": "COMPLETE",
+      "message": "KIT-001 verified: correct parts, quantities, slots and orientations",
+      "modeled_seconds": 118.6846
+    }
+  ],
+  "world": {
+    "seed": 4101,
+    "scenario": "normal",
+    "base": [
+      0.72,
+      0.0
+    ],
+    "heading": 0.0,
+    "hand": [
+      0.8644158432283437,
+      -1.654272637097165e-05,
+      1.4195750649832188
+    ],
+    "hand_yaw": 0.003637681968598372,
+    "arm": [
+      [
+        0.72,
+        0.0,
+        1.2
+      ],
+      [
+        0.4672297090765735,
+        2.8954646969346217e-05,
+        1.5843269170746628
+      ],
+      [
+        0.8644158432283437,
+        -1.6542726370971653e-05,
+        1.419575064983219
+      ]
+    ],
+    "held": null,
+    "parts": [
+      {
+        "id": "p0",
+        "kind": "bolt",
+        "position": [
+          1.2504115498880854,
+          -0.20060710460529663,
+          0.8565869387984275
+        ],
+        "yaw": 7.090749068083824e-05,
+        "location": "slot0"
+      },
+      {
+        "id": "p1",
+        "kind": "bolt",
+        "position": [
+          1.4900806243962141,
+          -0.20078315562568605,
+          0.8569299914687871
+        ],
+        "yaw": -0.0003552494081304758,
+        "location": "slot1"
+      },
+      {
+        "id": "p2",
+        "kind": "bracket",
+        "position": [
+          1.2505191093799657,
+          0.1994258195045404,
+          0.8562399447709321
+        ],
+        "yaw": 0.0010395164438250504,
+        "location": "slot2"
+      },
+      {
+        "id": "p3",
+        "kind": "spacer",
+        "position": [
+          1.4902765529835595,
+          0.19933031741675222,
+          0.8563084402866661
+        ],
+        "yaw": 0.0017005957375886283,
+        "location": "slot3"
+      },
+      {
+        "id": "p4",
+        "kind": "bracket",
+        "position": [
+          -1.2920365075021285,
+          0.6460256767206191,
+          0.855
+        ],
+        "yaw": 0.35050806357275177,
+        "location": "rack"
+      }
+    ],
+    "slots": [
+      [
+        1.25,
+        -0.2,
+        0.855
+      ],
+      [
+        1.49,
+        -0.2,
+        0.855
+      ],
+      [
+        1.25,
+        0.2,
+        0.855
+      ],
+      [
+        1.49,
+        0.2,
+        0.855
+      ]
+    ],
+    "obstacles": [
+      [
+        -1.56,
+        -1.02,
+        -1.07,
+        1.02
+      ],
+      [
+        1.12,
+        -0.43,
+        1.64,
+        0.43
+      ],
+      [
+        -0.1,
+        0.35,
+        0.22,
+        0.72
+      ]
+    ],
+    "obstruction": null,
+    "slot_checks": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "sim_seconds": 118.68463465553347
+  }
+}

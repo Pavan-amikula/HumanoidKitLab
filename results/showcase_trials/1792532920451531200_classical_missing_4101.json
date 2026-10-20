@@ -1,0 +1,172 @@
+{
+  "summary": {
+    "seed": 4101,
+    "scenario": "missing",
+    "method": "classical",
+    "environment": "kinematic synthetic simulation; assisted geometric grasps; no physics or gait",
+    "success": false,
+    "status": "FAILED",
+    "reason": "Insufficient visible stock: missing or occluded required part",
+    "correct_slots": 0,
+    "total_slots": 4,
+    "grasp_attempts": 0,
+    "grasp_successes": 0,
+    "first_attempt_grasp_successes": 0,
+    "retries": 0,
+    "classical_fallbacks": 0,
+    "navigation_distance_m": 0.0,
+    "camera_placement_errors": {},
+    "modeled_cycle_seconds": 0.0,
+    "wall_seconds": 0.9136782999994466,
+    "latencies": {
+      "perception": {
+        "count": 1,
+        "median_ms": 73.21490000322228,
+        "p95_ms": 73.21490000322228
+      }
+    }
+  },
+  "events": [
+    {
+      "sequence": 0,
+      "state": "CHECK_ORDER",
+      "message": "Checking observed rack inventory against the kit order",
+      "modeled_seconds": 0.0
+    },
+    {
+      "sequence": 1,
+      "state": "FAILED",
+      "message": "Insufficient visible stock: missing or occluded required part",
+      "modeled_seconds": 0.0
+    }
+  ],
+  "world": {
+    "seed": 4101,
+    "scenario": "missing",
+    "base": [
+      -0.65,
+      1.3
+    ],
+    "heading": -1.5707963267948966,
+    "hand": [
+      -0.47,
+      1.3,
+      1.35
+    ],
+    "hand_yaw": 0.0,
+    "arm": [
+      [
+        -0.65,
+        1.3,
+        1.2
+      ],
+      [
+        -0.7887997642359508,
+        1.3,
+        1.6385597170831407
+      ],
+      [
+        -0.47000000000000003,
+        1.3,
+        1.35
+      ]
+    ],
+    "held": null,
+    "parts": [
+      {
+        "id": "p0",
+        "kind": "bolt",
+        "position": [
+          -1.3187625443185753,
+          -0.7400236173232411,
+          0.855
+        ],
+        "yaw": 0.11330783594828131,
+        "location": "rack"
+      },
+      {
+        "id": "p1",
+        "kind": "bolt",
+        "position": [
+          -1.3132170061901007,
+          -0.3808303544266282,
+          0.855
+        ],
+        "yaw": 0.03050860746487838,
+        "location": "rack"
+      },
+      {
+        "id": "p2",
+        "kind": "bracket",
+        "position": [
+          -1.3053457187639512,
+          -0.02027078363312433,
+          0.855
+        ],
+        "yaw": 0.4735881539310952,
+        "location": "rack"
+      },
+      {
+        "id": "p4",
+        "kind": "bracket",
+        "position": [
+          -1.2920365075021285,
+          0.6460256767206191,
+          0.855
+        ],
+        "yaw": 0.35050806357275177,
+        "location": "rack"
+      }
+    ],
+    "slots": [
+      [
+        1.25,
+        -0.2,
+        0.855
+      ],
+      [
+        1.49,
+        -0.2,
+        0.855
+      ],
+      [
+        1.25,
+        0.2,
+        0.855
+      ],
+      [
+        1.49,
+        0.2,
+        0.855
+      ]
+    ],
+    "obstacles": [
+      [
+        -1.56,
+        -1.02,
+        -1.07,
+        1.02
+      ],
+      [
+        1.12,
+        -0.43,
+        1.64,
+        0.43
+      ],
+      [
+        -0.1,
+        0.35,
+        0.22,
+        0.72
+      ]
+    ],
+    "obstruction": null,
+    "slot_checks": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "sim_seconds": 0.0
+  }
+}
