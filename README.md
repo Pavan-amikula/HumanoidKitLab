@@ -10,9 +10,16 @@ A robot receives an assembly order, locates the required parts, navigates betwee
 
 ## See it work
 
-[![Animated preview: the learned controller assembles and verifies a four-part kit](docs/media/demo_preview.gif)](https://raw.githubusercontent.com/Pavan-amikula/HumanoidKitLab/main/docs/media/humanoidkit_demo.mp4)
+https://github.com/user-attachments/assets/4c6760cc-a2fe-4541-ac47-f9913b46c378
 
-**[Watch / download the full MP4 demonstration](https://raw.githubusercontent.com/Pavan-amikula/HumanoidKitLab/main/docs/media/humanoidkit_demo.mp4)** · [Video chapters and provenance](docs/media/demo_manifest.json)
+**[Open the full video](https://github.com/user-attachments/assets/4c6760cc-a2fe-4541-ac47-f9913b46c378)** · [MP4 source file](docs/media/humanoidkit_demo.mp4) · [Video chapters and provenance](docs/media/demo_manifest.json)
+
+<details>
+<summary>Animated preview</summary>
+
+![Animated preview: the learned controller assembles and verifies a four-part kit](docs/media/demo_preview.gif)
+
+</details>
 
 The 48-second video shows actual executed simulator states rendered with the application's scene renderer. Playback is accelerated; it is not physical robot footage or a wall-clock performance measurement.
 
