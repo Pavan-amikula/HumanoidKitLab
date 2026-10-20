@@ -2,7 +2,7 @@
 
 ### Vision-guided industrial kitting with classical, learned and hybrid robot control
 
-**Python · PyTorch · RGB-D perception · A* path planning · Inverse kinematics · Behaviour cloning · CPU simulation**
+**Python · PyTorch · RGB-D perception · A\* path planning · Inverse kinematics · Behaviour cloning · CPU simulation**
 
 A robot receives an assembly order, locates the required parts, navigates between a rack and a tray, picks and rotates each part, and verifies the finished kit. HumanoidKitLab brings these steps into one runnable application, with reproducible experiments and explicit failure handling.
 
